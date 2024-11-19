@@ -1,0 +1,174 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Plumbing",
+			"products": [
+				{
+					"id": 101,
+					"name": "PVC Pipe",
+					"price": 12.99,
+					"currency": "USD",
+					"stock": 150,
+					"description": "Durable PVC pipe for water supply systems.",
+					"brand": "AquaFlow",
+					"rating": 4.5,
+					"attributes": {
+						"length": "3m",
+						"diameter": "2 inches"
+					}
+				},
+				{
+					"id": 102,
+					"name": "Faucet",
+					"price": 29.99,
+					"currency": "USD",
+					"stock": 75,
+					"description": "Premium stainless steel faucet.",
+					"brand": "FlowMax",
+					"rating": 4.7,
+					"attributes": {
+						"material": "Stainless Steel",
+						"finish": "Chrome"
+					}
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Electricals",
+			"products": [
+				{
+					"id": 201,
+					"name": "LED Light Bulb",
+					"price": 4.99,
+					"currency": "USD",
+					"stock": 300,
+					"description": "Energy-efficient LED light bulb.",
+					"brand": "BrightLite",
+					"rating": 4.8,
+					"attributes": {
+						"wattage": "9W",
+						"color": "Warm White"
+					}
+				},
+				{
+					"id": 202,
+					"name": "Extension Cord",
+					"price": 15.99,
+					"currency": "USD",
+					"stock": 120,
+					"description": "Heavy-duty extension cord with surge protection.",
+					"brand": "PowerSafe",
+					"rating": 4.6,
+					"attributes": {
+						"length": "5m",
+						"sockets": 4
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Home Essentials",
+			"products": [
+				{
+					"id": 301,
+					"name": "Vacuum Cleaner",
+					"price": 89.99,
+					"currency": "USD",
+					"stock": 50,
+					"description": "Compact and powerful vacuum cleaner.",
+					"brand": "CleanPro",
+					"rating": 4.3,
+					"attributes": {
+						"power": "1000W",
+						"capacity": "2L"
+					}
+				},
+				{
+					"id": 302,
+					"name": "Ironing Board",
+					"price": 49.99,
+					"currency": "USD",
+					"stock": 80,
+					"description": "Adjustable ironing board with cotton cover.",
+					"brand": "IronEase",
+					"rating": 4.2,
+					"attributes": {
+						"height": "Adjustable",
+						"weight": "5kg"
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Agrochemicals",
+			"products": [
+				{
+					"id": 401,
+					"name": "Fertilizer",
+					"price": 19.99,
+					"currency": "USD",
+					"stock": 200,
+					"description": "High-nutrient fertilizer for crops.",
+					"brand": "GreenGrow",
+					"rating": 4.4,
+					"attributes": {
+						"weight": "10kg",
+						"type": "Organic"
+					}
+				},
+				{
+					"id": 402,
+					"name": "Pesticide",
+					"price": 25.99,
+					"currency": "USD",
+					"stock": 100,
+					"description": "Effective pest control solution.",
+					"brand": "CropShield",
+					"rating": 4.5,
+					"attributes": {
+						"volume": "1L",
+						"application": "Spray"
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Hardware Devices",
+			"products": [
+				{
+					"id": 501,
+					"name": "Cordless Drill",
+					"price": 99.99,
+					"currency": "USD",
+					"stock": 60,
+					"description": "Powerful cordless drill with rechargeable battery.",
+					"brand": "ToolMaster",
+					"rating": 4.6,
+					"attributes": {
+						"battery_life": "2 hours",
+						"weight": "1.5kg"
+					}
+				},
+				{
+					"id": 502,
+					"name": "Screwdriver Set",
+					"price": 24.99,
+					"currency": "USD",
+					"stock": 150,
+					"description": "Versatile screwdriver set with multiple heads.",
+					"brand": "FixIt",
+					"rating": 4.8,
+					"attributes": {
+						"pieces": 12,
+						"material": "Hardened Steel"
+					}
+				}
+			]
+		}
+	]
+}
