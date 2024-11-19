@@ -1,9 +1,9 @@
-const fs = require('fs');
+import fs from 'node:fs';
 
 fs.mkdir(
 	'newdirectory',
 	{
-		recursive: true /* All the necessary parent directories if they don't already exist. */
+		recursive: true /* Create all the necessary parent directories if they don't already exist. */
 	},
 	(err) => {
 		if (err) {
