@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('node:path');
 
 const filePath = '/user/local/bin/file.txt';
 

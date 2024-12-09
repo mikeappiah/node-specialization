@@ -1,5 +1,5 @@
-const fs = require('fs');
-const fsp = require('fs').promises;
+const fs = require('node:fs');
+const fsp = require('node:fs').promises;
 
 // SYNCHRONOUS/BLOCKING CODE
 const readFile = fs.readFileSync('./txt/input.txt', 'utf8'); // reading a file

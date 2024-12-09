@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('node:fs');
 
 // CREATING A READ STREAM FOR LARGE DATA
 const readStream = fs.createReadStream('./txt/largefile.txt', {

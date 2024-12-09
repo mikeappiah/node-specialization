@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const crypto = require('node:crypto');
 
 // Generate a SHA256 hash
 const hash = crypto.createHash('sha256').update('password123').digest('hex');

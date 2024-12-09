@@ -1,4 +1,4 @@
-const os = require('os');
+const os = require('node:os');
 
 console.log('Platform:', os.platform()); // e.g., 'win32', 'linux'
 console.log('CPU Architecture:', os.arch()); // e.g., 'x64'
