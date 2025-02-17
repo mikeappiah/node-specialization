@@ -1,4 +1,4 @@
-const util = require('node:sutil');
+const util = require('node:util');
 const fs = require('node:fs');
 
 // 1. util.format - The util.format() function formats strings in a printf-style manner.

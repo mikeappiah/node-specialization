@@ -5,9 +5,9 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/products', productController.getAllProducts);
-app.get('/products/:id', productController.getProduct);
-app.post('/products', productController.createProduct);
+app.get('/api/products', productController.getAllProducts);
+app.get('/api/products/:id', productController.getProduct);
+app.post('/api/products', productController.createProduct);
 
 const PORT = process.env.PORT || 3000;
 
